@@ -1,0 +1,43 @@
+{
+  "name": "mesh-client",
+  "description": "a model and collection library for mesh data binding",
+  "contributors": [
+    {
+      "name": "Ralph Smith",
+      "email": "ralphsmith80@gmail.com"
+    },
+    {
+      "name": "Jordan McCoy"
+    },
+    {
+      "name": "Elias Ponvert"
+    },
+    {
+      "name": "Aaron Stacy",
+      "email": "astacy@storediq.com"
+    }
+  ],
+  "version": "0.0.9",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ralphsmith80/mesh-client.git"
+  },
+  "dependencies": {
+    "js-yaml": "0.3.x",
+    "bedrockjs": "git://github.com/ralphsmith80/bedrockjs.git",
+    "gloss-vendor": "git://github.com/ralphsmith80/gloss-vendor.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunting": "git://github.com/ralphsmith80/grunting.git"
+  },
+  "csi": {
+    "name": "mesh-client",
+    "testMiddleware": "src/tests/middleware.js"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
